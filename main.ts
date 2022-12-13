@@ -1,14 +1,3 @@
-/**
- * Microbit DPad Bluetooth Ctrl
- * 
- * Wheel:bit app control for micro:bit
- * 
- * Arrows - Direction
- * 
- * B - Fast backward
- * 
- * C - Fast forward
- */
 control.onEvent(EventBusSource.MES_DPAD_CONTROLLER_ID, EventBusValue.MICROBIT_EVT_ANY, function () {
     if (control.eventValue() == EventBusValue.MES_DPAD_BUTTON_1_DOWN) {
         direction = 0

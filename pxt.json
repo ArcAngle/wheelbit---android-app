@@ -1,5 +1,5 @@
 {
-    "name": "Wheelbit - Android app",
+    "name": "Wheelbit - Android app for Microbit DPad Bluetooth Ctrl",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -25,7 +25,7 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
             "microbit-dal": {
